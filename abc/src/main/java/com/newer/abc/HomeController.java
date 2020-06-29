@@ -16,4 +16,8 @@ public class HomeController {
 		return "home";
 	}
 
+	@GetMapping("/demo")
+	public String sadhello() {
+		return "测试";
+	}
 }
